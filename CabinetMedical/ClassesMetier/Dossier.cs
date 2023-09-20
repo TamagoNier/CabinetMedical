@@ -6,5 +6,6 @@ namespace CabinetMedical.ClassesMetier
 {
     class Dossier
     {
+
     }
 }
