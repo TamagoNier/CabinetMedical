@@ -1,11 +1,11 @@
-﻿using Soins2021.Exceptions;
+﻿using CabinetMedical.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassesMetier
+namespace CabinetMedical.ClassesMetier
 {
     public class Prestation
     {
@@ -13,8 +13,7 @@ namespace ClassesMetier
         private readonly DateTime dateHeureSoin;
         private Intervenant intervenant;
         
-
-        public string  HeureSoin()
+        public string HeureSoin()
         {
             return this.DateHeureSoin.Hour + "h"+ this.DateHeureSoin.Minute  +" - " +this.DateHeureSoin.ToShortTimeString();
         }
@@ -52,7 +51,7 @@ namespace ClassesMetier
             }
             else
             {
-                throw new Soins2021Exception("La date de la prestation ne peut être postérieure à la date courante");
+                throw new CabinetMedicalException("La date de la prestation ne peut être postérieure à la date courante");
             }
 
         }

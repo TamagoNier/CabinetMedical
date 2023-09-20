@@ -1,6 +1,8 @@
 ﻿using System.Collections.ObjectModel;
+using CabinetMedical.Exceptions;
 
-namespace ClassesMetier
+
+namespace CabinetMedical.ClassesMetier
 {
     public class Intervenant
     {

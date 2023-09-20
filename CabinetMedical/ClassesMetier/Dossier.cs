@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using CabinetMedical.Exceptions;
 
 namespace CabinetMedical.ClassesMetier
 {
@@ -48,12 +50,12 @@ namespace CabinetMedical.ClassesMetier
                 }
                 else
                 {
-                    throw new Soins2021Exception("La date de création du dossier nepeut être postèrieure à la date du jour");
+                    throw new CabinetMedicalException("La date de création du dossier nepeut être postèrieure à la date du jour");
                 }
             }
             else
             {
-                throw new Soins2021Exception("La date de naissance est incorrecte");
+                throw new CabinetMedicalException("La date de naissance est incorrecte");
             }
         }
 
@@ -143,7 +145,7 @@ namespace CabinetMedical.ClassesMetier
             }
             else
             {
-                throw new Soins2021Exception("La date des soins ne peut être antérieure à la date de création du dossier.");
+                throw new CabinetMedicalException("La date des soins ne peut être antérieure à la date de création du dossier.");
             }
         }
 
