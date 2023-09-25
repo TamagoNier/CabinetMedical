@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34031.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabinetMedical", "CabinetMedical\CabinetMedical.csproj", "{9395980A-2B18-4397-9C0A-2AFD1CC33E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CabinetMedical", "CabinetMedical\CabinetMedical.csproj", "{9395980A-2B18-4397-9C0A-2AFD1CC33E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCabinetMedical", "TestCabinetMedical\TestCabinetMedical.csproj", "{1E23AD9E-C926-4BAF-8E79-391939340307}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCabinetMedical2", "TestCabinetMedical2\TestCabinetMedical2.csproj", "{8E0E5832-1BAF-4DF5-92F2-30DBE229E0B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9395980A-2B18-4397-9C0A-2AFD1CC33E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9395980A-2B18-4397-9C0A-2AFD1CC33E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9395980A-2B18-4397-9C0A-2AFD1CC33E56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E23AD9E-C926-4BAF-8E79-391939340307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E23AD9E-C926-4BAF-8E79-391939340307}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E23AD9E-C926-4BAF-8E79-391939340307}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E23AD9E-C926-4BAF-8E79-391939340307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0E5832-1BAF-4DF5-92F2-30DBE229E0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0E5832-1BAF-4DF5-92F2-30DBE229E0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0E5832-1BAF-4DF5-92F2-30DBE229E0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0E5832-1BAF-4DF5-92F2-30DBE229E0B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

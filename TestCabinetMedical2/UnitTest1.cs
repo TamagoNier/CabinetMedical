@@ -1,8 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using CabinetMedical;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using CabinetMedical.ClassesMetier;
 
-namespace TestCabinetMedical
+namespace TestCabinetMedical2
 {
     [TestClass]
     public class UnitTest1
@@ -12,7 +11,7 @@ namespace TestCabinetMedical
         {
             int a = 3;
             int b = 5;
-            int somme = new SertAFaireUnTestUnitaire.SommePourRien(a, b);
+            int somme = SertAFaireUnTestUnitaire.SommePourRien(a,b);
             Assert.AreEqual(8, somme);
         }
     }
