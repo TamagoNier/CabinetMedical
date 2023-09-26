@@ -9,7 +9,7 @@ using System.Configuration;
 
 namespace CabinetMedical.Exceptions
 {
-    class CabinetMedicalException : Exception
+    public class CabinetMedicalException : Exception
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="CabinetMedicalException"/> class.
